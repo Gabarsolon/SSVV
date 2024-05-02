@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search by keyword story","Searching by keyword banana should display the corresponding article","SUCCESS","2024-05-02T20:06:07.6869795+03:00[Europe/Bucharest]","0.0","5.39"
+"Search by keyword story","Searching by keyword bistrita should display the corresponding article","SUCCESS","2024-05-02T20:06:13.6794397+03:00[Europe/Bucharest]","0.0","2.26"
+"Search by keyword story","Searching by keyword barlad should display the corresponding arcticle","SUCCESS","2024-05-02T20:06:16.0040903+03:00[Europe/Bucharest]","0.0","2.31"
+"Search by keyword story","Searching by keyword apple should display the corresponding article","SUCCESS","2024-05-02T20:06:18.7153615+03:00[Europe/Bucharest]","0.0","2.54"
