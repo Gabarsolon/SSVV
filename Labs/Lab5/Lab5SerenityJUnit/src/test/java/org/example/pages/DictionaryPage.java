@@ -21,6 +21,7 @@ public class DictionaryPage extends PageObject {
     @FindBy(name="go")
     private WebElementFacade lookupButton;
 
+
     public void enter_keywords(String keyword) {
         searchTerms.type(keyword);
     }
@@ -35,4 +36,5 @@ public class DictionaryPage extends PageObject {
                 .map( element -> element.getText() )
                 .collect(Collectors.toList());
     }
+
 }

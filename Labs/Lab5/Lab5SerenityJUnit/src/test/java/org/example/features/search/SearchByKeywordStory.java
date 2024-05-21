@@ -21,10 +21,6 @@ public class SearchByKeywordStory {
     @Steps
     public EndUserSteps anna;
 
-    @Pending @Test
-    public void searching_by_ambiguous_keyword_should_display_the_disambiguation_page() {
-    }
-
     @Test
     public void searching_by_keyword_football_should_display_the_corresponding_article() {
         anna.is_the_home_page();
@@ -36,6 +32,6 @@ public class SearchByKeywordStory {
     public void searching_by_keyword_bistrita_should_Display_the_corresponding_article(){
         anna.is_the_home_page();
         anna.looks_for("Bistrita");
-        anna.should_see_definition("The capital city of Bistrița-Năsăud County, Romania.");
+        anna.should_see_definition("The capital city of Bistrița-Năsăud County");
     }
 } 

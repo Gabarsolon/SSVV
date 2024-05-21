@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.features.search.Superliga22_23TopScorerFilterByTeamValidData" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-21T18:21:25" hostname="DESKTOP-TAVU0N2" time="13.197">
+  <properties/>
+  <testcase name="testValidTopScorer[0]" classname="org.example.features.search.Superliga22_23TopScorerFilterByTeamValidData" time="7.139"/>
+  <testcase name="testValidTopScorer[1]" classname="org.example.features.search.Superliga22_23TopScorerFilterByTeamValidData" time="5.411"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 125.0.6422.60 (3ac3319bff9f3e139d632e3d195e3d2d43d86e37-refs/branch-heads/6422@{#1017}) on port 31051
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 21, 2024 9:21:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 125.0.6422.60 (3ac3319bff9f3e139d632e3d195e3d2d43d86e37-refs/branch-heads/6422@{#1017}) on port 6971
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 21, 2024 9:21:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

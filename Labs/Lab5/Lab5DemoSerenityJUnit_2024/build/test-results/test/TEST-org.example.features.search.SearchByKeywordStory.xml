@@ -1,167 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.features.search.SearchByKeywordStory" tests="5" skipped="1" failures="4" errors="0" timestamp="2024-05-21T16:37:00" hostname="LAPTOP" time="7.497">
+<testsuite name="org.example.features.search.SearchByKeywordStory" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-05-21T16:58:49" hostname="DESKTOP-TAVU0N2" time="0.006">
   <properties/>
-  <testcase name="searching_by_keyword_banana_should_display_the_corresponding_article" classname="org.example.features.search.SearchByKeywordStory" time="2.552">
-    <failure message="net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123&#10;Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: &#9;GetHandleVerifier [0x00007FF6AABC7032+63090]&#10;&#9;(No symbol) [0x00007FF6AAB32C82]&#10;&#9;(No symbol) [0x00007FF6AA9CEC65]&#10;&#9;(No symbol) [0x00007FF6AAA054C2]&#10;&#9;(No symbol) [0x00007FF6AAA048CF]&#10;&#9;(No symbol) [0x00007FF6AA9FE8C5]&#10;&#9;(No symbol) [0x00007FF6AA9FB2F4]&#10;&#9;(No symbol) [0x00007FF6AAA40BFB]&#10;&#9;(No symbol) [0x00007FF6AAA40830]&#10;&#9;(No symbol) [0x00007FF6AAA36D83]&#10;&#9;(No symbol) [0x00007FF6AAA083A8]&#10;&#9;(No symbol) [0x00007FF6AAA09441]&#10;&#9;GetHandleVerifier [0x00007FF6AAFC25AD+4238317]&#10;&#9;GetHandleVerifier [0x00007FF6AAFFF70D+4488525]&#10;&#9;GetHandleVerifier [0x00007FF6AAFF79EF+4456495]&#10;&#9;GetHandleVerifier [0x00007FF6AACA0576+953270]&#10;&#9;(No symbol) [0x00007FF6AAB3E54F]&#10;&#9;(No symbol) [0x00007FF6AAB39224]&#10;&#9;(No symbol) [0x00007FF6AAB3935B]&#10;&#9;(No symbol) [0x00007FF6AAB29B94]&#10;&#9;BaseThreadInitThunk [0x00007FFB16CC257D+29]&#10;&#9;RtlUserThreadStart [0x00007FFB17FAAA48+40]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123
-Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
-Driver info: driver.version: ProvideNewDriver
-remote stacktrace: 	GetHandleVerifier [0x00007FF6AABC7032+63090]
-	(No symbol) [0x00007FF6AAB32C82]
-	(No symbol) [0x00007FF6AA9CEC65]
-	(No symbol) [0x00007FF6AAA054C2]
-	(No symbol) [0x00007FF6AAA048CF]
-	(No symbol) [0x00007FF6AA9FE8C5]
-	(No symbol) [0x00007FF6AA9FB2F4]
-	(No symbol) [0x00007FF6AAA40BFB]
-	(No symbol) [0x00007FF6AAA40830]
-	(No symbol) [0x00007FF6AAA36D83]
-	(No symbol) [0x00007FF6AAA083A8]
-	(No symbol) [0x00007FF6AAA09441]
-	GetHandleVerifier [0x00007FF6AAFC25AD+4238317]
-	GetHandleVerifier [0x00007FF6AAFFF70D+4488525]
-	GetHandleVerifier [0x00007FF6AAFF79EF+4456495]
-	GetHandleVerifier [0x00007FF6AACA0576+953270]
-	(No symbol) [0x00007FF6AAB3E54F]
-	(No symbol) [0x00007FF6AAB39224]
-	(No symbol) [0x00007FF6AAB3935B]
-	(No symbol) [0x00007FF6AAB29B94]
-	BaseThreadInitThunk [0x00007FFB16CC257D+29]
-	RtlUserThreadStart [0x00007FFB17FAAA48+40]
-). See below for more details.
-	at app//org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
-	at app//org.example.features.search.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article(SearchByKeywordStory.java:35)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</failure>
-  </testcase>
-  <testcase name="searching_by_keyword_bistrita_should_Display_the_corresponding_article" classname="org.example.features.search.SearchByKeywordStory" time="1.214">
-    <failure message="net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123&#10;Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: &#9;GetHandleVerifier [0x00007FF6AABC7032+63090]&#10;&#9;(No symbol) [0x00007FF6AAB32C82]&#10;&#9;(No symbol) [0x00007FF6AA9CEC65]&#10;&#9;(No symbol) [0x00007FF6AAA054C2]&#10;&#9;(No symbol) [0x00007FF6AAA048CF]&#10;&#9;(No symbol) [0x00007FF6AA9FE8C5]&#10;&#9;(No symbol) [0x00007FF6AA9FB2F4]&#10;&#9;(No symbol) [0x00007FF6AAA40BFB]&#10;&#9;(No symbol) [0x00007FF6AAA40830]&#10;&#9;(No symbol) [0x00007FF6AAA36D83]&#10;&#9;(No symbol) [0x00007FF6AAA083A8]&#10;&#9;(No symbol) [0x00007FF6AAA09441]&#10;&#9;GetHandleVerifier [0x00007FF6AAFC25AD+4238317]&#10;&#9;GetHandleVerifier [0x00007FF6AAFFF70D+4488525]&#10;&#9;GetHandleVerifier [0x00007FF6AAFF79EF+4456495]&#10;&#9;GetHandleVerifier [0x00007FF6AACA0576+953270]&#10;&#9;(No symbol) [0x00007FF6AAB3E54F]&#10;&#9;(No symbol) [0x00007FF6AAB39224]&#10;&#9;(No symbol) [0x00007FF6AAB3935B]&#10;&#9;(No symbol) [0x00007FF6AAB29B94]&#10;&#9;BaseThreadInitThunk [0x00007FFB16CC257D+29]&#10;&#9;RtlUserThreadStart [0x00007FFB17FAAA48+40]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123
-Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
-Driver info: driver.version: ProvideNewDriver
-remote stacktrace: 	GetHandleVerifier [0x00007FF6AABC7032+63090]
-	(No symbol) [0x00007FF6AAB32C82]
-	(No symbol) [0x00007FF6AA9CEC65]
-	(No symbol) [0x00007FF6AAA054C2]
-	(No symbol) [0x00007FF6AAA048CF]
-	(No symbol) [0x00007FF6AA9FE8C5]
-	(No symbol) [0x00007FF6AA9FB2F4]
-	(No symbol) [0x00007FF6AAA40BFB]
-	(No symbol) [0x00007FF6AAA40830]
-	(No symbol) [0x00007FF6AAA36D83]
-	(No symbol) [0x00007FF6AAA083A8]
-	(No symbol) [0x00007FF6AAA09441]
-	GetHandleVerifier [0x00007FF6AAFC25AD+4238317]
-	GetHandleVerifier [0x00007FF6AAFFF70D+4488525]
-	GetHandleVerifier [0x00007FF6AAFF79EF+4456495]
-	GetHandleVerifier [0x00007FF6AACA0576+953270]
-	(No symbol) [0x00007FF6AAB3E54F]
-	(No symbol) [0x00007FF6AAB39224]
-	(No symbol) [0x00007FF6AAB3935B]
-	(No symbol) [0x00007FF6AAB29B94]
-	BaseThreadInitThunk [0x00007FFB16CC257D+29]
-	RtlUserThreadStart [0x00007FFB17FAAA48+40]
-). See below for more details.
-	at app//org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
-	at app//org.example.features.search.SearchByKeywordStory.searching_by_keyword_bistrita_should_Display_the_corresponding_article(SearchByKeywordStory.java:47)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</failure>
-  </testcase>
-  <testcase name="searching_by_keyword_barlad_should_Display_the_corresponding_arcticle" classname="org.example.features.search.SearchByKeywordStory" time="1.704">
-    <failure message="net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123&#10;Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: &#9;GetHandleVerifier [0x00007FF6AABC7032+63090]&#10;&#9;(No symbol) [0x00007FF6AAB32C82]&#10;&#9;(No symbol) [0x00007FF6AA9CEC65]&#10;&#9;(No symbol) [0x00007FF6AAA054C2]&#10;&#9;(No symbol) [0x00007FF6AAA048CF]&#10;&#9;(No symbol) [0x00007FF6AA9FE8C5]&#10;&#9;(No symbol) [0x00007FF6AA9FB2F4]&#10;&#9;(No symbol) [0x00007FF6AAA40BFB]&#10;&#9;(No symbol) [0x00007FF6AAA40830]&#10;&#9;(No symbol) [0x00007FF6AAA36D83]&#10;&#9;(No symbol) [0x00007FF6AAA083A8]&#10;&#9;(No symbol) [0x00007FF6AAA09441]&#10;&#9;GetHandleVerifier [0x00007FF6AAFC25AD+4238317]&#10;&#9;GetHandleVerifier [0x00007FF6AAFFF70D+4488525]&#10;&#9;GetHandleVerifier [0x00007FF6AAFF79EF+4456495]&#10;&#9;GetHandleVerifier [0x00007FF6AACA0576+953270]&#10;&#9;(No symbol) [0x00007FF6AAB3E54F]&#10;&#9;(No symbol) [0x00007FF6AAB39224]&#10;&#9;(No symbol) [0x00007FF6AAB3935B]&#10;&#9;(No symbol) [0x00007FF6AAB29B94]&#10;&#9;BaseThreadInitThunk [0x00007FFB16CC257D+29]&#10;&#9;RtlUserThreadStart [0x00007FFB17FAAA48+40]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123
-Current browser version is 114.0.5735.199 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
-Driver info: driver.version: ProvideNewDriver
-remote stacktrace: 	GetHandleVerifier [0x00007FF6AABC7032+63090]
-	(No symbol) [0x00007FF6AAB32C82]
-	(No symbol) [0x00007FF6AA9CEC65]
-	(No symbol) [0x00007FF6AAA054C2]
-	(No symbol) [0x00007FF6AAA048CF]
-	(No symbol) [0x00007FF6AA9FE8C5]
-	(No symbol) [0x00007FF6AA9FB2F4]
-	(No symbol) [0x00007FF6AAA40BFB]
-	(No symbol) [0x00007FF6AAA40830]
-	(No symbol) [0x00007FF6AAA36D83]
-	(No symbol) [0x00007FF6AAA083A8]
-	(No symbol) [0x00007FF6AAA09441]
-	GetHandleVerifier [0x00007FF6AAFC25AD+4238317]
-	GetHandleVerifier [0x00007FF6AAFFF70D+4488525]
-	GetHandleVerifier [0x00007FF6AAFF79EF+4456495]
-	GetHandleVerifier [0x00007FF6AACA0576+953270]
-	(No symbol) [0x00007FF6AAB3E54F]
-	(No symbol) [0x00007FF6AAB39224]
-	(No symbol) [0x00007FF6AAB3935B]
-	(No symbol) [0x00007FF6AAB29B94]
-	BaseThreadInitThunk [0x00007FFB16CC257D+29]
-	RtlUserThreadStart [0x00007FFB17FAAA48+40]
-). See below for more details.
-	at app//org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
-	at app//org.example.features.search.SearchByKeywordStory.searching_by_keyword_barlad_should_Display_the_corresponding_arcticle(SearchByKeywordStory.java:54)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</failure>
-  </testcase>
-  <testcase name="searching_by_ambiguious_keyword_should_display_the_disambiguation_page" classname="org.example.features.search.SearchByKeywordStory" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="searching_by_keyword_apple_should_display_the_corresponding_article" classname="org.example.features.search.SearchByKeywordStory" time="1.069">
-    <failure message="net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: Chrome failed to start: exited normally.&#10;  (session not created: DevToolsActivePort file doesn't exist)&#10;  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: &#9;GetHandleVerifier [0x00007FF6AABC7032+63090]&#10;&#9;(No symbol) [0x00007FF6AAB32C82]&#10;&#9;(No symbol) [0x00007FF6AA9CEC65]&#10;&#9;(No symbol) [0x00007FF6AAA00777]&#10;&#9;(No symbol) [0x00007FF6AA9FB2F4]&#10;&#9;(No symbol) [0x00007FF6AAA40BFB]&#10;&#9;(No symbol) [0x00007FF6AAA40830]&#10;&#9;(No symbol) [0x00007FF6AAA36D83]&#10;&#9;(No symbol) [0x00007FF6AAA083A8]&#10;&#9;(No symbol) [0x00007FF6AAA09441]&#10;&#9;GetHandleVerifier [0x00007FF6AAFC25AD+4238317]&#10;&#9;GetHandleVerifier [0x00007FF6AAFFF70D+4488525]&#10;&#9;GetHandleVerifier [0x00007FF6AAFF79EF+4456495]&#10;&#9;GetHandleVerifier [0x00007FF6AACA0576+953270]&#10;&#9;(No symbol) [0x00007FF6AAB3E54F]&#10;&#9;(No symbol) [0x00007FF6AAB39224]&#10;&#9;(No symbol) [0x00007FF6AAB3935B]&#10;&#9;(No symbol) [0x00007FF6AAB29B94]&#10;&#9;BaseThreadInitThunk [0x00007FFB16CC257D+29]&#10;&#9;RtlUserThreadStart [0x00007FFB17FAAA48+40]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: Chrome failed to start: exited normally.
-  (session not created: DevToolsActivePort file doesn't exist)
-  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
-Driver info: driver.version: ProvideNewDriver
-remote stacktrace: 	GetHandleVerifier [0x00007FF6AABC7032+63090]
-	(No symbol) [0x00007FF6AAB32C82]
-	(No symbol) [0x00007FF6AA9CEC65]
-	(No symbol) [0x00007FF6AAA00777]
-	(No symbol) [0x00007FF6AA9FB2F4]
-	(No symbol) [0x00007FF6AAA40BFB]
-	(No symbol) [0x00007FF6AAA40830]
-	(No symbol) [0x00007FF6AAA36D83]
-	(No symbol) [0x00007FF6AAA083A8]
-	(No symbol) [0x00007FF6AAA09441]
-	GetHandleVerifier [0x00007FF6AAFC25AD+4238317]
-	GetHandleVerifier [0x00007FF6AAFFF70D+4488525]
-	GetHandleVerifier [0x00007FF6AAFF79EF+4456495]
-	GetHandleVerifier [0x00007FF6AACA0576+953270]
-	(No symbol) [0x00007FF6AAB3E54F]
-	(No symbol) [0x00007FF6AAB39224]
-	(No symbol) [0x00007FF6AAB3935B]
-	(No symbol) [0x00007FF6AAB29B94]
-	BaseThreadInitThunk [0x00007FFB16CC257D+29]
-	RtlUserThreadStart [0x00007FFB17FAAA48+40]
-). See below for more details.
-	at app//org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
-	at app//org.example.features.search.SearchByKeywordStory.searching_by_keyword_apple_should_display_the_corresponding_article(SearchByKeywordStory.java:27)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+  <testcase name="initializationError" classname="org.example.features.search.SearchByKeywordStory" time="0.006">
+    <failure message="com.google.common.util.concurrent.UncheckedExecutionException: java.lang.IllegalStateException: Unable to load cache item" type="com.google.common.util.concurrent.UncheckedExecutionException">com.google.common.util.concurrent.UncheckedExecutionException: java.lang.IllegalStateException: Unable to load cache item
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2052)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3948)
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3972)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4957)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4963)
+	at com.google.inject.internal.FailableCache.get(FailableCache.java:51)
+	at com.google.inject.internal.ConstructorInjectorStore.get(ConstructorInjectorStore.java:48)
+	at com.google.inject.internal.ConstructorBindingImpl.initialize(ConstructorBindingImpl.java:155)
+	at com.google.inject.internal.InjectorImpl.initializeJitBinding(InjectorImpl.java:595)
+	at com.google.inject.internal.InjectorImpl.createJustInTimeBinding(InjectorImpl.java:932)
+	at com.google.inject.internal.InjectorImpl.createJustInTimeBindingRecursive(InjectorImpl.java:852)
+	at com.google.inject.internal.InjectorImpl.getJustInTimeBinding(InjectorImpl.java:291)
+	at com.google.inject.internal.InjectorImpl.getBindingOrThrow(InjectorImpl.java:222)
+	at com.google.inject.internal.InjectorImpl.getInternalFactory(InjectorImpl.java:938)
+	at com.google.inject.internal.FactoryProxy.notify(FactoryProxy.java:48)
+	at com.google.inject.internal.ProcessedBindingData.runCreationListeners(ProcessedBindingData.java:60)
+	at com.google.inject.internal.InternalInjectorCreator.initializeStatically(InternalInjectorCreator.java:133)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:106)
+	at com.google.inject.Guice.createInjector(Guice.java:87)
+	at com.google.inject.Guice.createInjector(Guice.java:69)
+	at com.google.inject.Guice.createInjector(Guice.java:59)
+	at net.thucydides.core.guice.Injectors.getInjector(Injectors.java:27)
+	at net.serenitybdd.junit.runners.SerenityRunner.&lt;init&gt;(SerenityRunner.java:102)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:78)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: java.lang.IllegalStateException: Unable to load cache item
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.createEntry(LoadingCache.java:79)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.get(LoadingCache.java:34)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:116)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.create(AbstractClassGenerator.java:291)
+	at com.google.inject.internal.cglib.reflect.$FastClass$Generator.create(FastClass.java:65)
+	at com.google.inject.internal.BytecodeGen.newFastClassForMember(BytecodeGen.java:258)
+	at com.google.inject.internal.BytecodeGen.newFastClassForMember(BytecodeGen.java:207)
+	at com.google.inject.internal.DefaultConstructionProxyFactory.create(DefaultConstructionProxyFactory.java:49)
+	at com.google.inject.internal.ProxyFactory.create(ProxyFactory.java:156)
+	at com.google.inject.internal.ConstructorInjectorStore.createConstructor(ConstructorInjectorStore.java:92)
+	at com.google.inject.internal.ConstructorInjectorStore.access$000(ConstructorInjectorStore.java:29)
+	at com.google.inject.internal.ConstructorInjectorStore$1.create(ConstructorInjectorStore.java:37)
+	at com.google.inject.internal.ConstructorInjectorStore$1.create(ConstructorInjectorStore.java:33)
+	at com.google.inject.internal.FailableCache$1.load(FailableCache.java:40)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2156)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2046)
+	... 52 more
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.google.inject.internal.cglib.core.$MethodWrapper
+	at com.google.inject.internal.cglib.core.$DuplicatesPredicate.evaluate(DuplicatesPredicate.java:104)
+	at com.google.inject.internal.cglib.core.$CollectionUtils.filter(CollectionUtils.java:52)
+	at com.google.inject.internal.cglib.reflect.$FastClassEmitter.&lt;init&gt;(FastClassEmitter.java:69)
+	at com.google.inject.internal.cglib.reflect.$FastClass$Generator.generateClass(FastClass.java:77)
+	at com.google.inject.internal.cglib.core.$DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.generate(AbstractClassGenerator.java:329)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:93)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:91)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache$2.call(LoadingCache.java:54)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.createEntry(LoadingCache.java:61)
+	... 69 more
+Caused by: java.lang.ExceptionInInitializerError: Exception com.google.inject.internal.cglib.core.$CodeGenerationException: java.lang.reflect.InaccessibleObjectException--&gt;Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not &quot;opens java.lang&quot; to unnamed module @ae13544 [in thread &quot;Test worker&quot;]
+	at com.google.inject.internal.cglib.core.$ReflectUtils.defineClass(ReflectUtils.java:464)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.generate(AbstractClassGenerator.java:336)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:93)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:91)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache$2.call(LoadingCache.java:54)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.createEntry(LoadingCache.java:61)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.get(LoadingCache.java:34)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:116)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.create(AbstractClassGenerator.java:291)
+	at com.google.inject.internal.cglib.core.$KeyFactory$Generator.create(KeyFactory.java:221)
+	at com.google.inject.internal.cglib.core.$KeyFactory.create(KeyFactory.java:174)
+	at com.google.inject.internal.cglib.core.$KeyFactory.create(KeyFactory.java:157)
+	at com.google.inject.internal.cglib.core.$KeyFactory.create(KeyFactory.java:149)
+	at com.google.inject.internal.cglib.core.$KeyFactory.create(KeyFactory.java:145)
+	at com.google.inject.internal.cglib.core.$MethodWrapper.&lt;clinit&gt;(MethodWrapper.java:23)
+	at com.google.inject.internal.cglib.core.$DuplicatesPredicate.evaluate(DuplicatesPredicate.java:104)
+	at com.google.inject.internal.cglib.core.$CollectionUtils.filter(CollectionUtils.java:52)
+	at com.google.inject.internal.cglib.reflect.$FastClassEmitter.&lt;init&gt;(FastClassEmitter.java:69)
+	at com.google.inject.internal.cglib.reflect.$FastClass$Generator.generateClass(FastClass.java:77)
+	at com.google.inject.internal.cglib.core.$DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.generate(AbstractClassGenerator.java:329)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:93)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:91)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache$2.call(LoadingCache.java:54)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.createEntry(LoadingCache.java:61)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.get(LoadingCache.java:34)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:116)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.create(AbstractClassGenerator.java:291)
+	at com.google.inject.internal.cglib.reflect.$FastClass$Generator.create(FastClass.java:65)
+	at com.google.inject.internal.BytecodeGen.newFastClassForMember(BytecodeGen.java:258)
+	at com.google.inject.internal.BytecodeGen.newFastClassForMember(BytecodeGen.java:207)
+	at com.google.inject.internal.ProviderMethod.create(ProviderMethod.java:69)
+	at com.google.inject.internal.ProviderMethodsModule.createProviderMethod(ProviderMethodsModule.java:272)
+	at com.google.inject.internal.ProviderMethodsModule.getProviderMethods(ProviderMethodsModule.java:116)
+	at com.google.inject.internal.ProviderMethodsModule.configure(ProviderMethodsModule.java:100)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:344)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:353)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:137)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:103)
+	... 35 more
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 58273
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 39975
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 42026
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 45924
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
+  <system-err><![CDATA[May 21, 2024 7:58:49 PM com.google.inject.internal.MessageProcessor visit
+INFO: An exception was caught and reported. Message: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @ae13544
+java.lang.IllegalStateException: Unable to load cache item
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.createEntry(LoadingCache.java:79)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.get(LoadingCache.java:34)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:116)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.create(AbstractClassGenerator.java:291)
+	at com.google.inject.internal.cglib.reflect.$FastClass$Generator.create(FastClass.java:65)
+	at com.google.inject.internal.BytecodeGen.newFastClassForMember(BytecodeGen.java:258)
+	at com.google.inject.internal.BytecodeGen.newFastClassForMember(BytecodeGen.java:207)
+	at com.google.inject.internal.ProviderMethod.create(ProviderMethod.java:69)
+	at com.google.inject.internal.ProviderMethodsModule.createProviderMethod(ProviderMethodsModule.java:272)
+	at com.google.inject.internal.ProviderMethodsModule.getProviderMethods(ProviderMethodsModule.java:116)
+	at com.google.inject.internal.ProviderMethodsModule.configure(ProviderMethodsModule.java:100)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:344)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:353)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:137)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:103)
+	at com.google.inject.Guice.createInjector(Guice.java:87)
+	at com.google.inject.Guice.createInjector(Guice.java:69)
+	at com.google.inject.Guice.createInjector(Guice.java:59)
+	at net.thucydides.core.guice.Injectors.getInjector(Injectors.java:27)
+	at net.serenitybdd.junit.runners.SerenityRunner.<init>(SerenityRunner.java:102)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:78)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.google.inject.internal.cglib.core.$DuplicatesPredicate.evaluate(DuplicatesPredicate.java:104)
+	at com.google.inject.internal.cglib.core.$CollectionUtils.filter(CollectionUtils.java:52)
+	at com.google.inject.internal.cglib.reflect.$FastClassEmitter.<init>(FastClassEmitter.java:69)
+	at com.google.inject.internal.cglib.reflect.$FastClass$Generator.generateClass(FastClass.java:77)
+	at com.google.inject.internal.cglib.core.$DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.generate(AbstractClassGenerator.java:329)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:93)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:91)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache$2.call(LoadingCache.java:54)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.createEntry(LoadingCache.java:61)
+	... 50 more
+Caused by: com.google.inject.internal.cglib.core.$CodeGenerationException: java.lang.reflect.InaccessibleObjectException-->Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @ae13544
+	at com.google.inject.internal.cglib.core.$ReflectUtils.defineClass(ReflectUtils.java:464)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.generate(AbstractClassGenerator.java:336)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:93)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:91)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache$2.call(LoadingCache.java:54)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.createEntry(LoadingCache.java:61)
+	at com.google.inject.internal.cglib.core.internal.$LoadingCache.get(LoadingCache.java:34)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:116)
+	at com.google.inject.internal.cglib.core.$AbstractClassGenerator.create(AbstractClassGenerator.java:291)
+	at com.google.inject.internal.cglib.core.$KeyFactory$Generator.create(KeyFactory.java:221)
+	at com.google.inject.internal.cglib.core.$KeyFactory.create(KeyFactory.java:174)
+	at com.google.inject.internal.cglib.core.$KeyFactory.create(KeyFactory.java:157)
+	at com.google.inject.internal.cglib.core.$KeyFactory.create(KeyFactory.java:149)
+	at com.google.inject.internal.cglib.core.$KeyFactory.create(KeyFactory.java:145)
+	at com.google.inject.internal.cglib.core.$MethodWrapper.<clinit>(MethodWrapper.java:23)
+	... 61 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @ae13544
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:387)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:363)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:311)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:201)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:195)
+	at com.google.inject.internal.cglib.core.$ReflectUtils$1.run(ReflectUtils.java:61)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at com.google.inject.internal.cglib.core.$ReflectUtils.<clinit>(ReflectUtils.java:52)
+	at com.google.inject.internal.cglib.reflect.$FastClassEmitter.<init>(FastClassEmitter.java:67)
+	... 58 more
+
 ]]></system-err>
 </testsuite>
