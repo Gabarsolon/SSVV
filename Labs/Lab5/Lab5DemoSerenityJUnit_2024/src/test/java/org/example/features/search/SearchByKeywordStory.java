@@ -52,7 +52,7 @@ public class SearchByKeywordStory {
     @Test
     public void searching_by_keyword_barlad_should_Display_the_corresponding_arcticle(){
         anna.is_the_home_page();
-        anna.looks_for("birlad");
-        anna.should_see_definition("second-person plural imperative of birlar");
+        anna.looks_for("Bârlad");
+        anna.should_see_definition("A city in Vaslui, Romania");
     }
 } 

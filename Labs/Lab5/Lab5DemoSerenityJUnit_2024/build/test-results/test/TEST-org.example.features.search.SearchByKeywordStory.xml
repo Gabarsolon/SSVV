@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.features.search.SearchByKeywordStory" tests="5" skipped="1" failures="4" errors="0" timestamp="2024-05-21T15:58:45" hostname="LAPTOP" time="6.776">
+  <properties/>
+  <testcase name="searching_by_keyword_banana_should_display_the_corresponding_article" classname="org.example.features.search.SearchByKeywordStory" time="2.386">
+    <failure message="net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123&#10;Current browser version is 125.0.6422.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: &#9;GetHandleVerifier [0x00007FF6AABC7032+63090]&#10;&#9;(No symbol) [0x00007FF6AAB32C82]&#10;&#9;(No symbol) [0x00007FF6AA9CEC65]&#10;&#9;(No symbol) [0x00007FF6AAA054C2]&#10;&#9;(No symbol) [0x00007FF6AAA048CF]&#10;&#9;(No symbol) [0x00007FF6AA9FE8C5]&#10;&#9;(No symbol) [0x00007FF6AA9FB2F4]&#10;&#9;(No symbol) [0x00007FF6AAA40BFB]&#10;&#9;(No symbol) [0x00007FF6AAA40830]&#10;&#9;(No symbol) [0x00007FF6AAA36D83]&#10;&#9;(No symbol) [0x00007FF6AAA083A8]&#10;&#9;(No symbol) [0x00007FF6AAA09441]&#10;&#9;GetHandleVerifier [0x00007FF6AAFC25AD+4238317]&#10;&#9;GetHandleVerifier [0x00007FF6AAFFF70D+4488525]&#10;&#9;GetHandleVerifier [0x00007FF6AAFF79EF+4456495]&#10;&#9;GetHandleVerifier [0x00007FF6AACA0576+953270]&#10;&#9;(No symbol) [0x00007FF6AAB3E54F]&#10;&#9;(No symbol) [0x00007FF6AAB39224]&#10;&#9;(No symbol) [0x00007FF6AAB3935B]&#10;&#9;(No symbol) [0x00007FF6AAB29B94]&#10;&#9;BaseThreadInitThunk [0x00007FFB16CC257D+29]&#10;&#9;RtlUserThreadStart [0x00007FFB17FAAA48+40]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123
+Current browser version is 125.0.6422.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF6AABC7032+63090]
+	(No symbol) [0x00007FF6AAB32C82]
+	(No symbol) [0x00007FF6AA9CEC65]
+	(No symbol) [0x00007FF6AAA054C2]
+	(No symbol) [0x00007FF6AAA048CF]
+	(No symbol) [0x00007FF6AA9FE8C5]
+	(No symbol) [0x00007FF6AA9FB2F4]
+	(No symbol) [0x00007FF6AAA40BFB]
+	(No symbol) [0x00007FF6AAA40830]
+	(No symbol) [0x00007FF6AAA36D83]
+	(No symbol) [0x00007FF6AAA083A8]
+	(No symbol) [0x00007FF6AAA09441]
+	GetHandleVerifier [0x00007FF6AAFC25AD+4238317]
+	GetHandleVerifier [0x00007FF6AAFFF70D+4488525]
+	GetHandleVerifier [0x00007FF6AAFF79EF+4456495]
+	GetHandleVerifier [0x00007FF6AACA0576+953270]
+	(No symbol) [0x00007FF6AAB3E54F]
+	(No symbol) [0x00007FF6AAB39224]
+	(No symbol) [0x00007FF6AAB3935B]
+	(No symbol) [0x00007FF6AAB29B94]
+	BaseThreadInitThunk [0x00007FFB16CC257D+29]
+	RtlUserThreadStart [0x00007FFB17FAAA48+40]
+). See below for more details.
+	at app//org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at app//org.example.features.search.SearchByKeywordStory.searching_by_keyword_banana_should_display_the_corresponding_article(SearchByKeywordStory.java:35)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="searching_by_keyword_bistrita_should_Display_the_corresponding_article" classname="org.example.features.search.SearchByKeywordStory" time="1.063">
+    <failure message="net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123&#10;Current browser version is 125.0.6422.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: &#9;GetHandleVerifier [0x00007FF6AABC7032+63090]&#10;&#9;(No symbol) [0x00007FF6AAB32C82]&#10;&#9;(No symbol) [0x00007FF6AA9CEC65]&#10;&#9;(No symbol) [0x00007FF6AAA054C2]&#10;&#9;(No symbol) [0x00007FF6AAA048CF]&#10;&#9;(No symbol) [0x00007FF6AA9FE8C5]&#10;&#9;(No symbol) [0x00007FF6AA9FB2F4]&#10;&#9;(No symbol) [0x00007FF6AAA40BFB]&#10;&#9;(No symbol) [0x00007FF6AAA40830]&#10;&#9;(No symbol) [0x00007FF6AAA36D83]&#10;&#9;(No symbol) [0x00007FF6AAA083A8]&#10;&#9;(No symbol) [0x00007FF6AAA09441]&#10;&#9;GetHandleVerifier [0x00007FF6AAFC25AD+4238317]&#10;&#9;GetHandleVerifier [0x00007FF6AAFFF70D+4488525]&#10;&#9;GetHandleVerifier [0x00007FF6AAFF79EF+4456495]&#10;&#9;GetHandleVerifier [0x00007FF6AACA0576+953270]&#10;&#9;(No symbol) [0x00007FF6AAB3E54F]&#10;&#9;(No symbol) [0x00007FF6AAB39224]&#10;&#9;(No symbol) [0x00007FF6AAB3935B]&#10;&#9;(No symbol) [0x00007FF6AAB29B94]&#10;&#9;BaseThreadInitThunk [0x00007FFB16CC257D+29]&#10;&#9;RtlUserThreadStart [0x00007FFB17FAAA48+40]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123
+Current browser version is 125.0.6422.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF6AABC7032+63090]
+	(No symbol) [0x00007FF6AAB32C82]
+	(No symbol) [0x00007FF6AA9CEC65]
+	(No symbol) [0x00007FF6AAA054C2]
+	(No symbol) [0x00007FF6AAA048CF]
+	(No symbol) [0x00007FF6AA9FE8C5]
+	(No symbol) [0x00007FF6AA9FB2F4]
+	(No symbol) [0x00007FF6AAA40BFB]
+	(No symbol) [0x00007FF6AAA40830]
+	(No symbol) [0x00007FF6AAA36D83]
+	(No symbol) [0x00007FF6AAA083A8]
+	(No symbol) [0x00007FF6AAA09441]
+	GetHandleVerifier [0x00007FF6AAFC25AD+4238317]
+	GetHandleVerifier [0x00007FF6AAFFF70D+4488525]
+	GetHandleVerifier [0x00007FF6AAFF79EF+4456495]
+	GetHandleVerifier [0x00007FF6AACA0576+953270]
+	(No symbol) [0x00007FF6AAB3E54F]
+	(No symbol) [0x00007FF6AAB39224]
+	(No symbol) [0x00007FF6AAB3935B]
+	(No symbol) [0x00007FF6AAB29B94]
+	BaseThreadInitThunk [0x00007FFB16CC257D+29]
+	RtlUserThreadStart [0x00007FFB17FAAA48+40]
+). See below for more details.
+	at app//org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at app//org.example.features.search.SearchByKeywordStory.searching_by_keyword_bistrita_should_Display_the_corresponding_article(SearchByKeywordStory.java:47)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="searching_by_keyword_barlad_should_Display_the_corresponding_arcticle" classname="org.example.features.search.SearchByKeywordStory" time="1.216">
+    <failure message="net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123&#10;Current browser version is 125.0.6422.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: &#9;GetHandleVerifier [0x00007FF6AABC7032+63090]&#10;&#9;(No symbol) [0x00007FF6AAB32C82]&#10;&#9;(No symbol) [0x00007FF6AA9CEC65]&#10;&#9;(No symbol) [0x00007FF6AAA054C2]&#10;&#9;(No symbol) [0x00007FF6AAA048CF]&#10;&#9;(No symbol) [0x00007FF6AA9FE8C5]&#10;&#9;(No symbol) [0x00007FF6AA9FB2F4]&#10;&#9;(No symbol) [0x00007FF6AAA40BFB]&#10;&#9;(No symbol) [0x00007FF6AAA40830]&#10;&#9;(No symbol) [0x00007FF6AAA36D83]&#10;&#9;(No symbol) [0x00007FF6AAA083A8]&#10;&#9;(No symbol) [0x00007FF6AAA09441]&#10;&#9;GetHandleVerifier [0x00007FF6AAFC25AD+4238317]&#10;&#9;GetHandleVerifier [0x00007FF6AAFFF70D+4488525]&#10;&#9;GetHandleVerifier [0x00007FF6AAFF79EF+4456495]&#10;&#9;GetHandleVerifier [0x00007FF6AACA0576+953270]&#10;&#9;(No symbol) [0x00007FF6AAB3E54F]&#10;&#9;(No symbol) [0x00007FF6AAB39224]&#10;&#9;(No symbol) [0x00007FF6AAB3935B]&#10;&#9;(No symbol) [0x00007FF6AAB29B94]&#10;&#9;BaseThreadInitThunk [0x00007FFB16CC257D+29]&#10;&#9;RtlUserThreadStart [0x00007FFB17FAAA48+40]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123
+Current browser version is 125.0.6422.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF6AABC7032+63090]
+	(No symbol) [0x00007FF6AAB32C82]
+	(No symbol) [0x00007FF6AA9CEC65]
+	(No symbol) [0x00007FF6AAA054C2]
+	(No symbol) [0x00007FF6AAA048CF]
+	(No symbol) [0x00007FF6AA9FE8C5]
+	(No symbol) [0x00007FF6AA9FB2F4]
+	(No symbol) [0x00007FF6AAA40BFB]
+	(No symbol) [0x00007FF6AAA40830]
+	(No symbol) [0x00007FF6AAA36D83]
+	(No symbol) [0x00007FF6AAA083A8]
+	(No symbol) [0x00007FF6AAA09441]
+	GetHandleVerifier [0x00007FF6AAFC25AD+4238317]
+	GetHandleVerifier [0x00007FF6AAFFF70D+4488525]
+	GetHandleVerifier [0x00007FF6AAFF79EF+4456495]
+	GetHandleVerifier [0x00007FF6AACA0576+953270]
+	(No symbol) [0x00007FF6AAB3E54F]
+	(No symbol) [0x00007FF6AAB39224]
+	(No symbol) [0x00007FF6AAB3935B]
+	(No symbol) [0x00007FF6AAB29B94]
+	BaseThreadInitThunk [0x00007FFB16CC257D+29]
+	RtlUserThreadStart [0x00007FFB17FAAA48+40]
+). See below for more details.
+	at app//org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at app//org.example.features.search.SearchByKeywordStory.searching_by_keyword_barlad_should_Display_the_corresponding_arcticle(SearchByKeywordStory.java:54)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <testcase name="searching_by_ambiguious_keyword_should_display_the_disambiguation_page" classname="org.example.features.search.SearchByKeywordStory" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="searching_by_keyword_apple_should_display_the_corresponding_article" classname="org.example.features.search.SearchByKeywordStory" time="1.098">
+    <failure message="net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123&#10;Current browser version is 125.0.6422.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'&#10;Driver info: driver.version: ProvideNewDriver&#10;remote stacktrace: &#9;GetHandleVerifier [0x00007FF6AABC7032+63090]&#10;&#9;(No symbol) [0x00007FF6AAB32C82]&#10;&#9;(No symbol) [0x00007FF6AA9CEC65]&#10;&#9;(No symbol) [0x00007FF6AAA054C2]&#10;&#9;(No symbol) [0x00007FF6AAA048CF]&#10;&#9;(No symbol) [0x00007FF6AA9FE8C5]&#10;&#9;(No symbol) [0x00007FF6AA9FB2F4]&#10;&#9;(No symbol) [0x00007FF6AAA40BFB]&#10;&#9;(No symbol) [0x00007FF6AAA40830]&#10;&#9;(No symbol) [0x00007FF6AAA36D83]&#10;&#9;(No symbol) [0x00007FF6AAA083A8]&#10;&#9;(No symbol) [0x00007FF6AAA09441]&#10;&#9;GetHandleVerifier [0x00007FF6AAFC25AD+4238317]&#10;&#9;GetHandleVerifier [0x00007FF6AAFFF70D+4488525]&#10;&#9;GetHandleVerifier [0x00007FF6AAFF79EF+4456495]&#10;&#9;GetHandleVerifier [0x00007FF6AACA0576+953270]&#10;&#9;(No symbol) [0x00007FF6AAB3E54F]&#10;&#9;(No symbol) [0x00007FF6AAB39224]&#10;&#9;(No symbol) [0x00007FF6AAB3935B]&#10;&#9;(No symbol) [0x00007FF6AAB29B94]&#10;&#9;BaseThreadInitThunk [0x00007FFB16CC257D+29]&#10;&#9;RtlUserThreadStart [0x00007FFB17FAAA48+40]&#10;). See below for more details." type="net.thucydides.core.webdriver.DriverConfigurationError">net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 123
+Current browser version is 125.0.6422.61 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP', ip: '192.168.0.178', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: driver.version: ProvideNewDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF6AABC7032+63090]
+	(No symbol) [0x00007FF6AAB32C82]
+	(No symbol) [0x00007FF6AA9CEC65]
+	(No symbol) [0x00007FF6AAA054C2]
+	(No symbol) [0x00007FF6AAA048CF]
+	(No symbol) [0x00007FF6AA9FE8C5]
+	(No symbol) [0x00007FF6AA9FB2F4]
+	(No symbol) [0x00007FF6AAA40BFB]
+	(No symbol) [0x00007FF6AAA40830]
+	(No symbol) [0x00007FF6AAA36D83]
+	(No symbol) [0x00007FF6AAA083A8]
+	(No symbol) [0x00007FF6AAA09441]
+	GetHandleVerifier [0x00007FF6AAFC25AD+4238317]
+	GetHandleVerifier [0x00007FF6AAFFF70D+4488525]
+	GetHandleVerifier [0x00007FF6AAFF79EF+4456495]
+	GetHandleVerifier [0x00007FF6AACA0576+953270]
+	(No symbol) [0x00007FF6AAB3E54F]
+	(No symbol) [0x00007FF6AAB39224]
+	(No symbol) [0x00007FF6AAB3935B]
+	(No symbol) [0x00007FF6AAB29B94]
+	BaseThreadInitThunk [0x00007FFB16CC257D+29]
+	RtlUserThreadStart [0x00007FFB17FAAA48+40]
+). See below for more details.
+	at app//org.example.steps.serenity.EndUserSteps.is_the_home_page(EndUserSteps.java:32)
+	at app//org.example.features.search.SearchByKeywordStory.searching_by_keyword_apple_should_display_the_corresponding_article(SearchByKeywordStory.java:27)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 42126
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 64288
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 37568
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 8843
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+</testsuite>
